@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8" />
+		<title>alarma</title>
+		<link rel="stylesheet" href="index.css" />
+	</head>
+	<body class="antialiased">
+		<div id="container" class="h-screen flex items-center justify-center">
+			<div class="text-center w-4/5 mx-auto">
+				<h1 class="text-5xl font-light tracking-wide text-gray-800">
+					alarma
+				</h1>
+				<p class="mt-4 text-lg font-light tracking-wider">
+					...just a simple Time notifier
+				</p>
+
+				<hr class="my-8" />
+
+				<div id="notice">
+					<h3 class="text-2xl font-light tracking-wide">
+						You will be notified after 10 minutes!
+					</h3>
+				</div>
+
+				<div id="form" class="flex flex-col">
+					<h3 class="text-2xl font-light">alarm in</h3>
+					<label for="time-input" class="my-4">
+						<input
+							type="number"
+							placeholder="10"
+							class="py-2 border w-24 text-center text-xl font-black text-gray-600"
+						/>
+						<span class="text-gray-600">minutes</span>
+					</label>
+
+					<button
+						class="mt-4 py-2 px-8 bg-gray-500 hover:bg-gray-600 text-white"
+					>
+						Notify Me!
+					</button>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
